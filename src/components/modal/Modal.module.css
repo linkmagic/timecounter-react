@@ -1,0 +1,50 @@
+.Modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.ModalContent {
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  min-width: 250px;
+}
+
+.Modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ModalYesNoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalYesNoMessage {
+  font-size: 24px;
+}
+
+.ModalRenameInput {
+  font-size: 24px;
+}
+
+.ModalYesNoButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+.ModalYesNoButtons > button {
+  font-size: 20px;
+  padding: 14px;
+  margin: 0 12px;
+  border: 1px solid gray;
+  border-radius: 12px;
+}

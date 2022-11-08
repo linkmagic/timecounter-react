@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  padding: 10px 10px 2px 10px;
+  font-family: "Digital7Mono";
+  font-size: 64px;
+  color: white;
+  border: 1px solid #16A086;
+  border-radius: 12px;
+  background: #16A086;
+  box-shadow: 3px 3px 5px -2px #000;
+}
+
+.label {
+  margin-top: 16px;
+  font-family: monospace;
+  font-size: 17px;
+  text-align: center;
+  color: #769897;
+}

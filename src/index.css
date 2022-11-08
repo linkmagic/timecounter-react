@@ -1,13 +1,15 @@
+@font-face {
+  font-family: 'Digital7Mono';
+  src: local('Digital7Mono'), url(./resources/fonts/digital-7_mono.ttf) format('truetype');
+}
+
 body {
+  padding: 0;
   margin: 0;
+  background-color: #2D3E50;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

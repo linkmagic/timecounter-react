@@ -1,0 +1,42 @@
+.clockSpiner {
+  height: 32px;
+  width: 32px;
+  min-height: 32px;
+  min-width: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background-color: #cccccc70;
+  border-radius: 100%;
+  border: 2px solid #000;
+}
+
+.clockSpiner::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 17px;
+  top: 50%;
+  left: 50%;
+  background-color: #000;
+  transform-origin:top;
+  animation: spin 1s linear infinite;
+}
+
+.clockSpiner::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 13px;
+  top: 50%;
+  left: 50%;
+  background-color: #000;
+  transform-origin:top;
+  animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}

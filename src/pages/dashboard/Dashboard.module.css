@@ -1,0 +1,20 @@
+.containerTimeCounters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.addTimeCounterButton {
+  display: block;
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  right: 12px;
+  bottom: 12px;
+  border: none;
+  background-image: linear-gradient(#ffa500, orange);
+  box-shadow: 0px 1px 20px -5px #000;
+  font-size: 48px;
+}
