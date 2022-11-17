@@ -13,7 +13,7 @@ const TimeCounterItem: FC<TimeCounterItemProps> = ({ data }) => {
   const navigate = useNavigate();
 
   const containerClickHandler = () => {
-    navigate(`/${id}`);
+    navigate(`/timecounter-react/${id}`);
   }
 
   return (

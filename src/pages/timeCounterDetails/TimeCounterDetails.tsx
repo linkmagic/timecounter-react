@@ -40,7 +40,7 @@ const TimeCounterDetails: FC = () => {
   const { name, totalSeconds, isRunning, history } = timeCounter;
   
   const backBtnClickHandler = () => {
-    navigate('/');
+    navigate('/timecounter-react/');
   }
   const editBtnClickHandler = () => {
     setVisibleRenameModal(true);
@@ -68,7 +68,7 @@ const TimeCounterDetails: FC = () => {
   const removeTimeCounterModalHandler = (value: boolean) => {
     if (value) {
       dispatch(removeTimeCounter({ id: id! }));
-      navigate('/');
+      navigate('/timecounter-react/');
     }
     setVisibleRemoveModal(false);
   }

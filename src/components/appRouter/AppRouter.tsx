@@ -8,8 +8,8 @@ import TimeCounterDetails from '../../pages/timeCounterDetails';
 const AppRouter: FC = () => {
   return (
     <Routes>
-      <Route path={'/'} element={<Dashboard />} />
-      <Route path={'/:id'} element={<TimeCounterDetails />} />
+      <Route path={'/timecounter-react/'} element={<Dashboard />} />
+      <Route path={'/timecounter-react/:id'} element={<TimeCounterDetails />} />
     </Routes>
   );
 };
