@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/timecounter-react/static/css/main.1d3b56ad.css",
+    "main.css": "/timecounter-react/static/css/main.4a40a6bf.css",
     "main.js": "/timecounter-react/static/js/main.1b349b65.js",
     "static/media/digital-7_mono.ttf": "/timecounter-react/static/media/digital-7_mono.ae951a188b593952b384.ttf",
     "static/media/edit.svg": "/timecounter-react/static/media/edit.bfed881f153089929463cb4ca7188e4d.svg",
@@ -10,11 +10,11 @@
     "static/media/play.svg": "/timecounter-react/static/media/play.219133f44c66aa9d3fe3fe1c304e19ec.svg",
     "static/media/remove.svg": "/timecounter-react/static/media/remove.b154fe56b504002685aa436135dbb8ab.svg",
     "index.html": "/timecounter-react/index.html",
-    "main.1d3b56ad.css.map": "/timecounter-react/static/css/main.1d3b56ad.css.map",
+    "main.4a40a6bf.css.map": "/timecounter-react/static/css/main.4a40a6bf.css.map",
     "main.1b349b65.js.map": "/timecounter-react/static/js/main.1b349b65.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d3b56ad.css",
+    "static/css/main.4a40a6bf.css",
     "static/js/main.1b349b65.js"
   ]
 }
