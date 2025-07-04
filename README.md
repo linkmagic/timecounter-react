@@ -1,4 +1,4 @@
-Multi time counter on ReactJS.
+Time counter with many timers on ReactJS.
 
 ![image](https://github.com/user-attachments/assets/741afbc5-bf9a-4347-88f3-0fd8efc6367b)
 
