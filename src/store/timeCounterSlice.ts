@@ -26,7 +26,6 @@ export const timeCounterSlice = createSlice({
   initialState,
   reducers: {
     saveDataToLS(state: TimeCounterState) {
-      console.log('saveDataToLS');
       const listJson = JSON.parse(JSON.stringify(state.list));
       saveAllDataToLS(listJson);
     },

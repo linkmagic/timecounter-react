@@ -3,21 +3,41 @@
   flex-direction: column;
 }
 
+.containerSmall {
+  margin: 0 2px 0 2px;
+}
+
 .value {
   padding: 10px 10px 2px 10px;
   font-family: "Digital7Mono";
-  font-size: 64px;
   color: white;
   border: 1px solid #16A086;
-  border-radius: 12px;
   background: #16A086;
   box-shadow: 3px 3px 5px -2px #000;
 }
 
+.valueLarge {
+  font-size: 64px;
+  border-radius: 12px;
+}
+
+.valueSmall {
+  font-size: 26px;
+  border-radius: 6px;
+}
+
 .label {
-  margin-top: 16px;
   font-family: monospace;
-  font-size: 17px;
   text-align: center;
   color: #769897;
+}
+
+.labelLarge {
+  margin-top: 16px;
+  font-size: 17px;
+}
+
+.labelSmall {
+  margin-top: 4px;
+  font-size: 10px;
 }

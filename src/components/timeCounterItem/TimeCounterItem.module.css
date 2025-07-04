@@ -10,16 +10,28 @@
   font-size: 24px;
 }
 
-.timeCounterNameDiv {
-  line-height: 60px;
+.timeCounterTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
-.timeCounterNameSpan {
+.timeCounterNameDiv {
   display: inline-block;
+  margin-right: 6px;
   vertical-align: middle;
   line-height: 22px;
   color: #dcdcdc;
+  margin-right: 6px;
 }
+
+.timeCounterTotalTimeDiv {
+  display: flex;
+  flex-direction: row;
+  line-height: 22px;
+  color: #dcdcdc;
+}
+
 
 .svgIconBtn {
   width: 64px;

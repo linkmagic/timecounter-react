@@ -1,6 +1,7 @@
 import { FC } from 'react';
 
-import { totalSecondsToTime } from '../../utils/general';
+import { DashboardTime, totalSecondsToTime } from '../../utils/general';
+
 import ClockSpiner from '../clockSpiner';
 import TimeCell from '../timeCell';
 
@@ -12,7 +13,7 @@ interface TotalTimeBoardProps {
 }
 
 const TotalTimeBoard: FC<TotalTimeBoardProps> = ({ value, isTimeCounterActive = false }) => {
-  const time = totalSecondsToTime(value);
+  const time: DashboardTime = totalSecondsToTime(value);
   
   const containerClasses = [
     styles.container,
@@ -21,10 +22,10 @@ const TotalTimeBoard: FC<TotalTimeBoardProps> = ({ value, isTimeCounterActive = 
 
   return (
     <div className={containerClasses}>
-      <TimeCell value={time.days} title={'DAYS'} />
-      <TimeCell value={time.hours} title={'HOURS'} />
-      <TimeCell value={time.minutes} title={'MINUTES'} />
-      <TimeCell value={time.seconds} title={'SECONDS'} />
+      <TimeCell size="large" value={time.days} title={'DAYS'} />
+      <TimeCell size="large" value={time.hours} title={'HOURS'} />
+      <TimeCell size="large" value={time.minutes} title={'MINUTES'} />
+      <TimeCell size="large" value={time.seconds} title={'SECONDS'} />
       {isTimeCounterActive && (
         <div className={styles.coverActiveTimeCounter}>
           <div className={styles.spinerContainer}>

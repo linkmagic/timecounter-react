@@ -2,7 +2,7 @@ export const addLeadingZero = (value: number): string => {
   return (value > 9 ? '' : '0' ) + value;
 }
 
-type DashboardTime = {
+export type DashboardTime = {
   days: number;
   hours: number;
   minutes: number;
